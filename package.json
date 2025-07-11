@@ -1,0 +1,21 @@
+{
+  "name": "seo-analyzer",
+  "version": "1.0.0",
+  "description": "Outil d'analyse SEO avec Lighthouse",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "chrome-launcher": "^0.15.2",
+    "express": "^4.21.2",
+    "lighthouse": "9.6.8",
+    "opener": "^1.5.2",
+    "puppeteer": "^24.10.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
